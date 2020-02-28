@@ -10,4 +10,6 @@ Our next model is a version of logistic regression with Naive Bayes features.
 
 For every document we compute binarized features as described above, but this time we use bigrams and trigrams too. Each feature is a log-count ratio. A logistic regression model is then trained to predict sentiment.
 
-The approach is insired by the paper Baselines and Bigrams: Simple, Good Sentiment and Topic Classification. Sida Wang and Christopher D. Manning 
+The approach is insired by the paper Baselines and Bigrams: Simple, Good Sentiment and Topic Classification. Sida Wang and Christopher D. Manning.
+
+The model created here achieves an accuracy over 92% compared to the 91.22% achieved in the paper.
